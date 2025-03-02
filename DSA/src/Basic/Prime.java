@@ -1,8 +1,13 @@
 package Basic;
 
+import java.util.Scanner;
+
 public class Prime {
     public static void main(String[] args) {
-        int num =1;
+        int num;
+        System.out.println("Enter number\n");
+        Scanner sc = new Scanner(System.in);
+        num= sc.nextInt();
         if(num==1||num==2){
             System.out.print("Prime");
         }
