@@ -14,6 +14,7 @@ public class ReversingArray{
         for(int i=0; i < len;i++){
             System.out.print(arr[i]+" ");
         }
+        //logic start
         for(int j=len-1; j>=0;j--){
             arr2[len-1-j]=arr[j];
         }
