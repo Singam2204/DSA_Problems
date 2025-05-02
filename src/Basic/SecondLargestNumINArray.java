@@ -12,9 +12,9 @@ public class SecondLargestNumINArray {
         for (int i = 0; i < len; i++) {
             arr[i]=n.nextInt();
         }
-        int j = 1;
-        max=arr[0];
-        sec_max=arr[0];
+        int j = 0;
+        max=-1;
+        sec_max=max-1;
         while (j<len){
             if(arr[j]>max){
                 sec_max= max;

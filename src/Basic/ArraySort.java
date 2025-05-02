@@ -6,4 +6,5 @@ public class ArraySort {
             Arrays.sort(arr);
             System.out.println(arr[arr.length-2]);
         }
+
 }
